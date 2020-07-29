@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.e-learning-icon{
+  float: bottom;
+  object-fit: contain;
+  align: bottom;
+  width:32%;
+  height:120px;
+}
+
+.e-learning {
+  background-color: #00B4D8;
+  color: white;
+}
+
+.e-learning-header {
+
+  border: none;
+  padding:15px;
+  text-align:center;
+}
+
+.e-learning-footer {
+  border: none;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+  font-size: 1.5vh
+}
+
+.app-container {
+  background-color:white;
+  color:#495867;
+  float:left;
+  width:32%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+.app-icon {
+  float: bottom;
+  object-fit: contain;
+  align: bottom;
+  width:32%;
+  height:80px;
+}
+.app-name {
+  color: #00B4D8;
+}
+
+.app-button {
+  color: #495867; 
+  border: none;
+  background-color: #8DE969;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.app-button:hover {
+  background-color: #495867;
+  color: #8DE969;
+}
+
+.contact-footer {
+  font-size: 1.2vh
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .app-container, .app-icon {
+    width:100%;
+  }
+}
