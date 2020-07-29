@@ -1,0 +1,13 @@
+[Unit]
+Description=Autostart Kiwix Server mode
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/opt/kiwix/bin/kiwix-serve --library /opt/kiwix/data/library/library.xml --port 8001 --urlRootLocation "/kiwix" > /var/log/kiwix-server.log 2>&1
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+

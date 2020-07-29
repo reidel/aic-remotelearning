@@ -15,3 +15,4 @@ sudo systemctl enable kiwix.service
 #sudo cp kiwix.zim /opt/kiwix/data/content
 #sudo kiwix-manage  /opt/kiwix/data/library/library.xml add /opt/kiwix/data/content/ext_data/kiwix_data/wikipedia_en_all_maxi_2018-10.zim
 #sudo systemctl start kiwix.service
+#sudo kiwix-manage /opt/kiwix/data/library/library.xml add /opt/kiwix/data/content/wikipedia_en_100_maxi_2020-07.zim
