@@ -7,7 +7,7 @@ rmdir kiwix-tools_linux-armhf-*
 find . -type f -name 'kiwix-tools_linux-armhf*.tar.gz' -exec rm {} +
 sudo cp -R kiwix /opt/kiwix
 sudo ln -s /opt/kiwix/bin/* /usr/bin/
-sudo cp kiwix.service /lib/systemd/system/kiwix.service
+sudo cp configuration/kiwix/kiwix.service /lib/systemd/system/kiwix.service
 sudo chmod 644 /lib/systemd/system/kiwix.service
 sudo systemctl daemon-reload
 sudo systemctl enable kiwix.service
