@@ -1,12 +1,13 @@
 #!/bin/sh
 wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-armhf.tar.gz
-mkdir -p kiwix/kiwix/bin kiwix/kiwix/data/content kiwix/kiwix/data/library
-tar -C kiwix/ -xzvf kiwix-tools_linux-armhf-3.1.2-1.tar
-mv kiwix/kiwix-tools_linux-armhf-3.1.2-1/* kiwix/kiwix/bin/
-rmdir kiwix/kiwix-tools_linux-armhf-3.1.2-1
-sudo cp -R kiwix/kiwix /opt/kiwix
+mkdir -p kiwix/bin kiwix/data/content kiwix/data/library
+tar -xzvf kiwix-tools_linux-armhf.tar.gz
+mv kiwix-tools_linux-armhf-*/* kiwix/bin/
+rmdir kiwix-tools_linux-armhf-*
+find . -type f -name 'kiwix-tools_linux-armhf*.tar.gz' -exec rm {} +
+sudo cp -R kiwix /opt/kiwix
 sudo ln -s /opt/kiwix/bin/* /usr/bin/
-sudo cp kiwix/kiwix.service /lib/systemd/system/kiwix.service
+sudo cp kiwix.service /lib/systemd/system/kiwix.service
 sudo chmod 644 /lib/systemd/system/kiwix.service
 sudo systemctl daemon-reload
 sudo systemctl enable kiwix.service
