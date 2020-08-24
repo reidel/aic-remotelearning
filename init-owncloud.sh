@@ -5,4 +5,4 @@ sudo chmod 600 /etc/nginx/cert.pem
 sudo chmod 600 /etc/nginx/cert.key
 sudo chmod 600 /etc/nginx/dh2048.pem
 
-mysql -h localhost -u root database < init-owncloud.sql
+sudo mysql -h localhost -u root database < init-owncloud.sql
