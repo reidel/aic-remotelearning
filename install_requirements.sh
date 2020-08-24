@@ -12,7 +12,7 @@ sudo apt install authbind -y
 sudo apt install nginx openssl ssl-cert -y
 
 # owncloud requirements
-sudo apt install php-xml php-dev php-curl php-gd php-fpm php-zip php-intl php-mbstring php-cli php-mysql php-common php-cgi php-apcu php-redis redis-server php-pear curl libapr1 libtool libcurl4-openssl-dev -y
+sudo apt install mariadb php-xml php-dev php-curl php-gd php-fpm php-zip php-intl php-mbstring php-cli php-mysql php-common php-cgi php-apcu php-redis redis-server php-pear curl libapr1 libtool libcurl4-openssl-dev -y
 sudo usermod -a -G www-data www-data
 sudo usermod -a -G www-data pi
 
