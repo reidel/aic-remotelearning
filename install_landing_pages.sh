@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo cp landing_page/* /var/www/html/
+sudo cp -R landing_page/* /var/www/html/
