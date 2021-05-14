@@ -1,0 +1,350 @@
+{
+    "os_list": [
+        {
+            "description": "64-bit Gentoo Linux v1.6.0 for the RPi4 and RPi3, with Xfce4 desktop",
+            "download_size": 1846474044,
+            "feature_level": 0,
+            "group": "General",
+            "icon": "https://isshoni.org/pinn/os/gentoo64/gentoo64.png",
+            "marketing_info": "https://isshoni.org/pinn/os/gentoo64/marketing.tar",
+            "nominal_size": 12000,
+            "os_info": "https://isshoni.org/pinn/os/gentoo64/os.json",
+            "os_name": "gentoo64",
+            "partition_setup": "https://isshoni.org/pinn/os/gentoo64/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=gentoo64&s=12000",
+            "release_date": "2020-06-24",
+            "supported_models": [
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev",
+                "Pi 4 Model B Rev"
+            ],
+            "supports_backup": "update",
+            "tarballs": [
+                "https://isshoni.org/pinn/os/gentoo64/boot_gen.tar.xz",
+                "https://isshoni.org/pinn/os/gentoo64/root_gen.tar.xz"
+            ],
+            "url": "https://github.com/sakaki-/gentoo-on-rpi-64bit"
+        },
+        {
+            "description": "A port of 64-bit Kali Linux for Pi 2 through 4 with desktop and recommended applications",
+            "download_size": 2031796648,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali_Linux_Full_(64-bit).png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/marketing.tar",
+            "nominal_size": 10000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/os.json",
+            "os_name": "Kali_Linux_Full_(64-bit)",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=kali_linux_full_64-bit&s=10000",
+            "release_date": "2020-12-17",
+            "supported_models": [
+                "Pi 2 v1.2",
+                "Pi 3",
+                "Pi 4",
+                "Pi 400"
+            ],
+            "supports_backup": true,
+            "supports_usb_boot": false,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali64boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali64root.tar.xz"
+            ],
+            "url": "https://www.kali.org/"
+        },
+        {
+            "description": "A port of Debian with desktop and recommended applications",
+            "download_size": 1492777304,
+            "feature_level": 35120124,
+            "icon": "http://downloads.raspberrypi.org/raspios_full_armhf/Raspberry_Pi_OS_Full_(32-bit).png",
+            "marketing_info": "http://downloads.raspberrypi.org/raspios_full_armhf/marketing.tar",
+            "nominal_size": 16000,
+            "os_info": "http://downloads.raspberrypi.org/raspios_full_armhf/os.json",
+            "os_name": "Raspberry Pi OS Full (32-bit)",
+            "partition_setup": "http://downloads.raspberrypi.org/raspios_full_armhf/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=raspberrypiosfull32-bit&s=16000",
+            "release_date": "2021-03-04",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.raspberrypi.org/raspios_full_armhf/boot.tar.xz",
+                "http://downloads.raspberrypi.org/raspios_full_armhf/root.tar.xz"
+            ]
+        },
+        {
+            "description": "ubuntu2010 v20.10 desktop for RPi4",
+            "download_size": 1348820088,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/ubuntu2010.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/os.json",
+            "os_name": "ubuntu2010",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=ubuntu2010&s=33000",
+            "release_date": "2020-10-15",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/system-boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/writable.tar.xz"
+            ],
+            "url": "https://ubuntu/"
+        },
+        {
+            "description": "ubuntumate2010_64 v20.10 for RPi 3/4",
+            "download_size": 1189870456,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/ubuntumate2010_64.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/marketing.tar",
+            "nominal_size": 16000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/os.json",
+            "os_name": "ubuntumate2010_64",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=ubuntumate2010_64&s=16000",
+            "release_date": "2020-10-15",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/system-boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/writable.tar.xz"
+            ],
+            "url": "https://ubuntu-mate.org/ports/raspberry-pi/"
+        },
+        {
+            "description": "manjaro-xfce-rpi4 16.0 for RPi4",
+            "download_size": 788536836,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/manjaro-xfce-rpi4.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/marketing.tar",
+            "nominal_size": 16000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/os.json",
+            "os_name": "manjaro-xfce-rpi4",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=manjaro-xfce-rpi4&s=16000",
+            "release_date": "2020-04-03",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "supports_usb_root": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/root.tar.xz"
+            ]
+        },
+        {
+            "description": "A debian64pi4 Linux port for ARM devices RPi4",
+            "download_size": 143472116,
+            "group": "Testing",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/debian64pi4.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/os.json",
+            "os_name": "debian64pi4",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=debian64pi4&s=33000",
+            "release_date": "2020-01-02",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/debian64pi4/root.tar.xz"
+            ]
+        },
+        {
+            "description": "A 64-bit BETA port of Debian with desktop and recommended applications",
+            "download_size": 703254020,
+            "group": "General",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/raspios64/raspios64.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/raspios64/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/raspios64/os.json",
+            "os_name": "raspios64",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/raspios64/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=raspios64&s=33000",
+            "release_date": "2020-08-20",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/raspios64/boot64.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/raspios64/root64.tar.xz"
+            ],
+            "url": "http://www.raspbian.org/"
+        },
+        {
+            "description": "A port of Debian with no desktop environment",
+            "download_size": 258296084,
+            "feature_level": 35120124,
+            "icon": "http://downloads.raspberrypi.org/raspios_lite_armhf/Raspberry_Pi_OS_Lite_(32-bit).png",
+            "marketing_info": "http://downloads.raspberrypi.org/raspios_lite_armhf/marketing.tar",
+            "nominal_size": 10000,
+            "os_info": "http://downloads.raspberrypi.org/raspios_lite_armhf/os.json",
+            "os_name": "Raspberry Pi OS Lite (32-bit)",
+            "partition_setup": "http://downloads.raspberrypi.org/raspios_lite_armhf/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=raspberrypioslite32-bit&s=10000",
+            "release_date": "2021-03-04",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.raspberrypi.org/raspios_lite_armhf/boot.tar.xz",
+                "http://downloads.raspberrypi.org/raspios_lite_armhf/root.tar.xz"
+            ]
+        },
+        {
+            "description": "An Arch Linux port for ARM devices RPi3",
+            "download_size": 467365718,
+            "feature_level": 0,
+            "group": "Minimal",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/Arch4/Arch4.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/Arch4/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Arch4/os.json",
+            "os_name": "Arch4",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Arch4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=arch4&s=33000",
+            "release_date": "2020-03-03",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "supports_backup": "update",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/Arch4/boot_arch.tar.xz",
+                "http://archlinuxarm.org/os/ArchLinuxARM-rpi-4-latest.tar.gz"
+            ],
+            "url": "http://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4"
+        },
+        {
+            "description": "LibreELEC is a fast and user-friendly Kodi Entertainment Center distribution.",
+            "icon": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/LibreELEC_RPi4.png",
+            "marketing_info": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/marketing.tar",
+            "nominal_size": 8000,
+            "os_info": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/os.json",
+            "os_name": "LibreELEC_RPi4",
+            "partition_setup": "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/partition_setup.sh",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=libreelec_rpi4&s=8000",
+            "release_date": "2020-10-24",
+            "supported_hex_revisions": "",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/System.tar.xz",
+                "http://releases.libreelec.tv/noobs/LibreELEC_RPi4/Storage.tar.xz"
+            ]
+        },
+        {
+            "description": "Adds an empty 512MB ext4 format partition to the partition layout.",
+            "icon": "http://downloads.raspberrypi.org/data_partition/Data_Partition.png",
+            "nominal_size": 200000,
+            "os_info": "http://downloads.raspberrypi.org/data_partition/os.json",
+            "os_name": "Data Partition",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=datapartition&s=200000",
+            "tarballs": [
+                "http://downloads.raspberrypi.org/data_partition/data.tar.xz"
+            ]
+        },
+        {
+            "description": "A Project Space to partition the SD card equally",
+            "feature_level": 0,
+            "group": "Utility",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "os_name": "ProjectSpace - 1",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=projectspace-1&s=33000",
+            "release_date": "2018-05-14",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
+            ],
+            "url": "https://github.com/procount/pinn/blob/master/README_PINN.md#project-spaces"
+        },
+        {
+            "description": "A Project Space to partition the SD card equally",
+            "feature_level": 0,
+            "group": "Utility",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "os_name": "ProjectSpace - 2",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=projectspace-2&s=33000",
+            "release_date": "2018-05-14",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
+            ],
+            "url": "https://github.com/procount/pinn/blob/master/README_PINN.md#project-spaces"
+        },
+        {
+            "description": "A Project Space to partition the SD card equally",
+            "feature_level": 0,
+            "group": "Utility",
+            "icon": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png",
+            "marketing_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "nominal_size": 33000,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "os_name": "ProjectSpace - 3",
+            "partitions_info": "https://pinn.mjh.nz/partitions.json?p=projectspace-3&s=33000",
+            "release_date": "2018-05-14",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
+            ],
+            "url": "https://github.com/procount/pinn/blob/master/README_PINN.md#project-spaces"
+        }
+    ]
+}
